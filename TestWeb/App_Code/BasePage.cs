@@ -16,6 +16,9 @@ namespace TestWeb
             throw new NotImplementedException();
         }
 
+        // If you choose this way, you must do the BasePage abstract
+        // public abstract HttpContextItemCollection GetContext();
+
         public virtual void SetContext(HttpContextItemCollection theContext)
         {
             throw new NotImplementedException();

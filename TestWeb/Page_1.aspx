@@ -16,10 +16,14 @@
             <asp:Button runat="server" ID="btn_back" Text="Go back with HttpFlowSystem" Width="200px" OnClick="btn_back_Click" />
             <br />
             <br />
-            <asp:TextBox runat="server" ID="txt_context" Height="100px" Width="200px" />
+            Context
+            <br />
+            <asp:TextBox runat="server" ID="txt_context" Width="200px" />
             <br />
             <br />
-            <asp:TextBox runat="server" ID="txt_flow" Height="100px" Width="200px" />
+            Flow
+            <br />
+            <asp:TextBox runat="server" ID="txt_flow" Width="200px" />
         </p>
     </div>
 </asp:Content>
